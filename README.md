@@ -3,8 +3,11 @@ cover: .gitbook/assets/BBM.png
 coverY: 0
 ---
 
-# Welcome!
+# Home
 
-## Welcome aboard!
+## Welcome to BlackBox Mate wiki!
 
-Welcome to the company wiki! Here you'll find everything you need to know about the company.
+Here you'll find everything you need to know about the [BBM webapp](https://bbm.pitronic.top).
+
+
+
