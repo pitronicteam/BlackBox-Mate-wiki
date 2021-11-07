@@ -1,27 +1,43 @@
 # Sampling flight
 
-## Our Vision
+In order not to trigger some special tuned algorithm details in BBM kernel code and therefore cause trouble or confusion, we recommend you to do our "sampling flight" to get proper blackbox logs.
 
-{% hint style="info" %}
-**Good to know:** a good vision statement shows the long-term goals of the company without getting too deep into strategy, implementation, or product specifics.
-{% endhint %}
+There are basically two types of "sampling flight":
 
-Our company vision is to **be the authoritative reference point for environmentally conscious buyers** and to **encourage more sustainable business practices** through curating beautiful, practical, consciously-produced products.
+* Baseline flight: for PID tunning
+* Throttle sweep flight: for filters tunning
 
-## Our Values
+### Baseline flight
 
-{% hint style="info" %}
-**Good to know:** company values are statements about how you approach work; how you treat colleagues, customers and users; and what your company stands for.
-{% endhint %}
+It's basically Brian's "basement flight". You have to:
 
-### Be Compassionate
+* Turn off FF
+* Turn off Absolute control
+* Turn off I-term roration
+* Turn off Vbat sag compensation
+* Turn off Thrust Linearization
+* Turn off Integral Yaw
+* Turn off I-term relax
+* Turn off D\_Min
+* Turn off Anti-gravity
 
-We treat everyone we encounter with compassion, seeing the humanity behind their problems and experiences.
+In all words, you'd better to turn off all the parameters that can dynamically change the PID coefficients.
 
-### Be Mindful
+After that, switch to Angle mode, arm your quads, and hover:
 
-We do not take advantage of our users' attention and adopt mindful working practices so that we can create safe spaces both in our working environment and in our products themselves.
+* do some quick move on roll/pitch/yaw axis
+* do not kick the wall or anything like that
+* fly around 30s and land
 
-### Research First
+Then you finish the baseline flight!
 
-We challenge our own and others' assumptions through qualitative and quantitative research. Not sure about an idea? Test it.
+### Throttle sweep flight
+
+Throttle sweep flight is a little bit of dangerous, do at your own risks!
+
+* Keep your normal filter settings
+* Do a throttle sweep from 0% to 100% in around 10 secs
+* Then do a flip pitch/roll
+* Land
+
+Then you finish the throttle sweep flight!
