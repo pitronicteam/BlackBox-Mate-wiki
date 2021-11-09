@@ -20,12 +20,12 @@
 
 ## Advance topics
 
-* [Why we choose AGPL3.0](advance-topics/why-we-choose-agpl3.0.md)
 * [How to tune PIDs](advance-topics/how-to-tune-pids.md)
 * [How to tune filters](advance-topics/how-to-tune-filters.md)
 
 ## in depth talk
 
+* [Why did we choose AGPL3.0](in-depth-talk/why-did-we-choose-agpl3.0.md)
 * [Wienner deconvolution](in-depth-talk/wienner-deconvolution.md)
 * [FT and Correlation](in-depth-talk/ft-and-correlation.md)
 * [FFT, Power Spectrum and PSD](in-depth-talk/fft-power-spectrum-and-psd.md)
