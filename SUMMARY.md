@@ -27,5 +27,6 @@
 
 * [Why did we choose AGPL3.0](in-depth-talk/why-did-we-choose-agpl3.0.md)
 * [Wienner deconvolution](in-depth-talk/wienner-deconvolution.md)
+* [Nyquist frequency](in-depth-talk/nyquist-frequency.md)
 * [FT and Correlation](in-depth-talk/ft-and-correlation.md)
 * [FFT, Power Spectrum and PSD](in-depth-talk/fft-power-spectrum-and-psd.md)
