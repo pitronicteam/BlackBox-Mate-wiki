@@ -13,8 +13,8 @@ Here you'll find everything you need to know about the [BBM webapp](https://bbm.
 
 BBM aims to provide the most convenient, most scientific and most accurate blackbox data analysis for every pilot who wants to tune their quads to the best.
 
-* If you are new to quad tuning and don't know how to use our tool, please check our Quick Start
-* Found a bug/error or have some thoughts that you think are better than ours? Raise an issue here
+* If you are new to quad tuning and don't know how to use our tool, please check our [Quick Start](broken-reference)
+* Found a bug/error or have some thoughts that you think are better than ours? Raise an issue [here](https://github.com/DusKing1/PID-Evaluator/issues)
 
 ### Supported firmware
 
