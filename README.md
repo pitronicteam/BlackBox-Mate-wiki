@@ -34,4 +34,4 @@ If you think our work is awesome please consider donate to us, or get your favor
 
 GNU Affero General Public License 3.0
 
-Check here to see why we chose this.
+Check here to see [why we chose this](in-depth-talk/why-did-we-choose-agpl3.0.md).
