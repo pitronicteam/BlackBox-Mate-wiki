@@ -1,4 +1,4 @@
-# Why we choose AGPL3.0
+# Why did we choose AGPL3.0
 
 **For you reference:**
 
@@ -70,11 +70,11 @@ Our original intention to create BBM is to make it easier for everyone to use:
 * No need to download several Gigabytes MATLAB runtime (PIDtoolbox)
 * No need to worry about the system version/environment causing the python program to crash/run (PID-analyzer)
 
-
+![](../.gitbook/assets/matlab-runtime.jpg)
 
 On the other hand, the drone is indeed an excellent platform for research and practice of digital signal processing. In the beginning, it was us as a group of people with the same interest got together and worked together to write scripts and code. Maybe we all have the idea of making some money from this, but we don't have the purpose of using this to make a lot of money.
 
-
+![](../.gitbook/assets/PSD-first-demo.png)
 
 AGPL-3.0 can also be applied to SaaS products, which is an enhanced version of GPLv3.0. We take the initiative to open the BBM kernel source code under the AGPLv3.0 agreement, hoping to share what we have learned and to recognize and support the spirit of open source.
 
