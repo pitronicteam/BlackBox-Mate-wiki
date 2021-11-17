@@ -16,11 +16,11 @@ BBM aims to provide the most convenient, most scientific and most accurate black
 * If you are new to quad tuning and don't know how to use our tool, please check our [Quick Start](broken-reference)
 * Found a bug/error or have some thoughts that you think are better than ours? Raise an issue [here](https://github.com/DusKing1/PID-Evaluator/issues)
 
-### HELP WANTED!!
+### <mark style="color:red;">HELP WANTED!!</mark>
 
-We are currently at the edge of running out of server disk space, and we need more funds to expand the server's hard disk and re-optimize the server's algorithm structure.
+<mark style="color:red;">We are currently at the edge of running out of server disk space, and we need more funds to expand the server's hard disk and re-optimize the server's algorithm structure.</mark>
 
-If you found that our BBM is really helpful to you and you wanna help us make it better, please consider getting your favourite manufacturers to sponsor us or buy our AD service.
+<mark style="color:red;">If you found that our BBM is really helpful to you and you wanna help us make it better, please consider getting your favourite manufacturers to sponsor us or buy our AD service.</mark>
 
 ### Supported firmware
 
