@@ -6,7 +6,7 @@ We assume that the readers of this wiki are pilots who have certain flight exper
 
 ### What does sampling frequency determine?
 
-According to the Nyquist-Shannon sampling theorem, the maximum resolvable frequency of a digital signal should be half of the sampling frequency, which is often called the Nyquist frequency.
+According to the [Nyquist-Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon\_sampling\_theorem), the maximum resolvable frequency of a digital signal should be half of the sampling frequency, which is often called the [Nyquist frequency](https://en.wikipedia.org/wiki/Nyquist\_frequency).
 
 In other words, assuming we are sampling at a rate of 1khz, then we can "see" the signal frequency in the 0-500hz frequency "window".
 
