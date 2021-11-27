@@ -14,7 +14,7 @@ In other words, assuming we are sampling at a rate of 1khz, then we can "see" th
 
 ### Hey, the motor noise is usually like 450hz for the max!
 
-For a typical 2500KV motor with 4s power, its motor noise frequency range is usually around 0-480hz, which is lower than the Nyquist frequency, which means that theoretically we can see the whole frequency band of motor noise.
+For a typical 2500KV motor with 4s power, its motor noise frequency range is usually around 0-480hz, which is lower than the Nyquist frequency, which means that theoretically we can see the whole frequency band of motor noise when the sampling frequency was set to 1khz.
 
 ![](../.gitbook/assets/0-500-motor-noise.png)
 
