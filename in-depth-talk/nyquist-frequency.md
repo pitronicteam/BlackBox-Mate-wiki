@@ -8,13 +8,19 @@ We assume that the readers of this wiki are pilots who have certain flight exper
 
 According to the [Nyquist-Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon\_sampling\_theorem), the maximum resolvable frequency of a digital signal should be half of the sampling frequency, which is often called the [Nyquist frequency](https://en.wikipedia.org/wiki/Nyquist\_frequency).
 
+![](../.gitbook/assets/1920px-Nyquist\_frequency\_&\_rate.svg.png)
+
 In other words, assuming we are sampling at a rate of 1khz, then we can "see" the signal frequency in the 0-500hz frequency "window".
 
 ### Hey, the motor noise is usually like 450hz for the max!
 
-For a typical 2500KV motor with 4s power, its motor noise frequency range is usually around 0-450hz, which is lower than the Nyquist frequency, which means that theoretically we can see the whole frequency band of motor noise.
+For a typical 2500KV motor with 4s power, its motor noise frequency range is usually around 0-480hz, which is lower than the Nyquist frequency, which means that theoretically we can see the whole frequency band of motor noise.
+
+![](../.gitbook/assets/0-500-motor-noise.png)
 
 That's right. However, due to the characteristics of the vibration mode of the motor, the vibration of the rotor is often not a pure sine wave, which is accompanied by many harmonic components. The harmonics are the frequency multiples of the fundamental component of the motor noise. This makes it easy for them to break the 500hz Nyquist frequency "limit".
+
+![](../.gitbook/assets/motor-noise-modes.png)
 
 ### What about signals higher than the Nyquist frequency?
 
@@ -22,6 +28,10 @@ The frequency of these signals is higher than the Nyquist frequency and is alrea
 
 Obviously, it won't. Signals higher than the Nyquist frequency will be transferred to low-frequency component artifacts after being sampled and then folded back into our "window". For example, 600hz noise will be transferred into a "false frequency" at 400hz. This phenomenon is called frequency aliasing. The following is a very good example.
 
+![](../.gitbook/assets/600-transfer-400.png)
+
 Note that aliasing might not occur just for once. Whenever the signal frequency reaches an integer multiple of the Nyquist frequency, the signal will encounter the upper or lower edge of the "window", and aliasing happens again. For example, as shown in the figure below that aliasing also occurs in the 2k sampled spectrum (the second harmonic of motor noise), and the frequency of 1300hz is shown as a 700hz alias frequency. In the 1k sampled frequency spectrum, it is presented as a 300hz alias frequency.
 
-Without referring to the 2k sampled spectrum results, even I can hardly give a conclusion on where this frequency (300hz) comes from.
+![](../.gitbook/assets/1000-fold-twice.png)
+
+Without referring to the 2k sampled spectrum results, even I can hardly give a conclusion on where this frequency (throttle 44-66%, frequency 0-360hz) comes from.
