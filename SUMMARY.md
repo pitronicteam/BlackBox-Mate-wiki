@@ -22,7 +22,7 @@
 ## Advance topics
 
 * [How to tune PIDs](advance-topics/how-to-tune-pids.md)
-* [How to tune filters](advance-topics/how-to-tune-filters.md)
+* [Noise Analysis](advance-topics/noise-analysis.md)
 
 ## in depth talk
 

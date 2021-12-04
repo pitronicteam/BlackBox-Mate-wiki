@@ -30,7 +30,7 @@ After some seconds, the "Check Analysis Result" button will lighten up. That mea
 
 ### **Change to English**
 
-We have** **made our website automatically change the language to English if you are not in China. But this mechanism still has some bugs and might not work properly as expected. So here we will show you how to switch English version manually.
+We have **** made our website automatically change the language to English if you are not in China. But this mechanism still has some bugs and might not work properly as expected. So here we will show you how to switch English version manually.
 
 ![](../.gitbook/assets/change-language.png)
 

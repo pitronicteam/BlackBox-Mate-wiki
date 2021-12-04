@@ -15,7 +15,7 @@ Firstly, we should start our talk with open-source licenses.
 
 ![](<../.gitbook/assets/how-to choose-open-source-license.png>)
 
-### What is **the **open-source license?
+### What is **the** open-source license?
 
 Software, whether free or paid, is the result of the hard work of programmers. This means that programmers have spent mental labour, and **the result of labour - software - is a special form of property**. The rights that the program/software author has over such property are called **the intellectual property rights of the software/code**.
 
@@ -35,9 +35,9 @@ The open-source license is a special agreement established by the software autho
 
 ![](../.gitbook/assets/open-source-licences.png)
 
-From the picture above, since it is not allowed to be modified into other "weak" open-source agreements, the GPL license is actually a relatively strict open-source agreement. **This is so-called**_** the poisoning effect of GPL**_**.**
+From the picture above, since it is not allowed to be modified into other "weak" open-source agreements, the GPL license is actually a relatively strict open-source agreement. **This is so-called **_**the poisoning effect of GPL**_**.**
 
-But it is exactly the same** **effect making the GPL software community very active.
+But it is exactly the same **** effect making the GPL software community very active.
 
 If you carefully observe each release of betaflight, you will see that the source code download link is provided below. This is also based on the GPL-3.0 agreement.
 
