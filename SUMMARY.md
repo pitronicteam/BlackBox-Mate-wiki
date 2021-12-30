@@ -16,6 +16,7 @@
 
 ## release notes
 
+* [Dec 2021](release-notes/dec-2021.md)
 * [Nov 2021](release-notes/nov-2021.md)
 * [Oct 2021](release-notes/oct-2021.md)
 
